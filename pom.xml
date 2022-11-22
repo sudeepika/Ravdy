@@ -35,11 +35,11 @@
                     <execution>
                         <phase>validate</phase>
                         <goals>
-                            <goal>copy</goal>
+                            <goal>install</goal>
                         </goals>
                         <configuration>
                             <outputDirectory>${endorsed.dir}</outputDirectory>
-                            <silent>true</silent>
+                            <silent>false</silent>
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>javax</groupId>
