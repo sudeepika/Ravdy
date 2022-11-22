@@ -15,9 +15,11 @@
       <scope>test</scope>  
     </dependency>
     <dependency>
-    <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
-    <version>2.2</version>
+  <version>3.4.0-SNAPSHOT</version>
+  <packaging>maven-plugin</packaging>
+<name>Apache Maven WAR Plugin</name>
+ <description>Builds a Web Application Archive (WAR) file from the project output and its dependencies.</description>
 </dependency>
     <dependency>
   <groupId>org.apache.maven</groupId>
